@@ -1,0 +1,73 @@
+.card {
+  overflow: hidden;
+  text-decoration: none;
+  border-radius: 18px;
+  box-shadow: 18.21px 18.21px 36.43px 0px #D3D1D840;
+  transition: box-shadow 0.35s ease, transform 0.35s ease;
+}
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 25px 25px 50px 0px #D3D1D860;
+}
+.card__top {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 165px;
+  position: relative;
+}
+.card__price {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--white);
+  font-size: 18px;
+  height: 34px;
+  color: var(--black);
+  padding: 0 15px;
+  border-radius: 120px;
+  box-shadow: 0px 7.1px 28.4px 0px #FE724C33;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.card__price span {
+  color: var(--orange);
+}
+.card__rating {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--white);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M8.30328 9.80779L5.13279 8.14179L1.96107 9.80779L2.56821 6.27664L0 3.77643L3.54571 3.26157L5.13279 0L6.71986 3.26157L10.2656 3.77643L7.69736 6.27786L8.30328 9.80779Z' fill='%23FFC529'/%3e%3c/svg%3e ");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 8px) center;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--black);
+  height: 29px;
+  padding: 0 22px 0 8px;
+  border-radius: 136px;
+  box-shadow: 0px 6.07px 24.29px 0px #FE724C33;
+  position: absolute;
+  bottom: -14px;
+  left: 12px;
+}
+.card__bot {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px 15px 15px 15px;
+}
+.card__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--black);
+}
+.card__desc {
+  font-size: 14px;
+  color: var(--gray-1);
+}
+.card__bot button {
+  justify-content: center;
+}

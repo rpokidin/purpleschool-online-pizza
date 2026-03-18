@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 420px;
+}
+.form__line {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form__line-label {
+  font-size: 17px;
+  color: var(--gray-4);
+}
+.form__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+}
+.form__bottom > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.form__bottom button {
+  min-width: 320px;
+  justify-content: center;
+}
+.form__bottom a {
+  color: var(--orange);
+  text-decoration: none;
+}
+.form__bottom a:hover {
+  text-decoration: underline;
+}

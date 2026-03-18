@@ -1,0 +1,81 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  width: 240px;
+  padding: 30px;
+  border-right: 1px solid var(--gray-6);
+}
+
+.user {
+  margin-bottom: 60px;
+}
+.user__avatar {
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.user__avatar img {
+  max-width: 100%;
+  height: auto;
+}
+.user__name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.user__email {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--gray-2);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.nav ul li {
+  display: flex;
+  align-items: center;
+}
+.nav ul li img {
+  margin-right: 15px;
+}
+.nav ul li span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange);
+  font-size: 12px;
+  color: var(--white);
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+.nav ul li a {
+  color: var(--black);
+  text-decoration: none;
+}
+.nav ul li a:hover,
+.nav ul li a:global(.active) {
+  color: var(--orange);
+}
+
+.logout-btn {
+  margin-top: auto;
+}
+
+.main {
+  flex-grow: 1;
+  padding: 30px 60px;
+}

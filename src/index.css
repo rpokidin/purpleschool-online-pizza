@@ -1,0 +1,35 @@
+:root {
+
+  --black: #000;
+  --white: #FFF;
+  --gray-1: #5B5B5E; 
+  --gray-2: #9796A1;
+  --gray-3: #9AA0B4;
+  --gray-4: #C4C4C4;
+  --gray-5: #BEBEBE;
+  --gray-6: #D4D6E0;
+  --gray-7: #EEEEEE;
+  --orange: #FE724C; 
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--black);
+}
+
+hr {
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}

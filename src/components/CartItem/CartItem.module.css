@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  border-radius: 18px;
+  box-shadow: 18.21px 18.21px 36.43px 0px #D3D1D840;
+  transition: box-shadow 0.35s ease, transform 0.35s ease;
+}
+.card__img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 82px;
+  height: 82px;
+  border-radius: 20px;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.card__title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card__price {
+  font-weight: 600;
+  color: var(--orange);
+}
+.card__btns {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-right: 10px;
+}
+.card__btns button {
+  cursor: pointer;
+  line-height: 1;
+}
+.card__btn-remove,
+.card__btn-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--orange);
+  border-radius: 50%;
+}
+.card__btn-remove {
+  background-color: transparent;
+}
+.card__btn-add {
+  background-color: var(--orange);
+}
+.card__btn-del {
+  background-color: transparent;
+  border: 0;
+}
